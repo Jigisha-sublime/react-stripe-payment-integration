@@ -1,0 +1,21 @@
+{
+  "name": "react-stripe-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "node src/server",
+    "dev": "concurrently \" npm run server\"  \" npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "stripe": "^8.76.0",
+    "uuid": "^8.2.0"
+  }
+}
